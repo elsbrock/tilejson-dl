@@ -1,0 +1,10 @@
+{
+    "author": "Simon Elsbrock <simon@iodev.org>",
+    "name": "tilejson-dl",
+    "description": "El-cheapo tileJSON layer downloader",
+    "version": "0.0.1",
+    "dependencies": {
+        "tilejson": "~0.6.3",
+        "canvas": "~1.1.0"
+    }
+}
