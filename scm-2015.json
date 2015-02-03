@@ -1,0 +1,41 @@
+{
+    "attribution":"TeleGeography Submarine Cable Map",
+    "basename":"submarine-cable-map-2015",
+    "bounds":[
+        -180,
+        -85.05112877980659,
+        180,
+        85.05112877980659
+    ],
+    "center":[
+        20,
+        0,
+        3
+    ],
+    "description":"",
+    "download":"",
+    "filesize":0,
+    "grids":[
+        "http://a.tiles.telegeography.com/maps/submarine-cable-map-2015/{z}/{x}/{y}.grid.json",
+        "http://b.tiles.telegeography.com/maps/submarine-cable-map-2015/{z}/{x}/{y}.grid.json",
+        "http://c.tiles.telegeography.com/maps/submarine-cable-map-2015/{z}/{x}/{y}.grid.json",
+        "http://d.tiles.telegeography.com/maps/submarine-cable-map-2015/{z}/{x}/{y}.grid.json"
+    ],
+    "id":"telegeography.submarine-cable-map-2015",
+    "legend":"",
+    "maxzoom":6,
+    "minzoom":2,
+    "name":"2015 Submarine Cable Map",
+    "scheme":"xyz",
+    "template": "{{#__location__}}{{/__location__}}{{#__teaser__}}{{{ISO_A2}}}{{/__teaser__}}",
+    "tilejson":"2.0.0",
+    "tiles":[
+        "http://a.tiles.telegeography.com/maps/submarine-cable-map-2015/{z}/{x}/{y}.png",
+        "http://b.tiles.telegeography.com/maps/submarine-cable-map-2015/{z}/{x}/{y}.png",
+        "http://c.tiles.telegeography.com/maps/submarine-cable-map-2015/{z}/{x}/{y}.png",
+        "http://d.tiles.telegeography.com/maps/submarine-cable-map-2015/{z}/{x}/{y}.png"
+    ],
+    "type":"baselayer",
+    "version":"1.0.0",
+    "webpage":"http://submarine-cable-map-2015.telegeography.com"
+}

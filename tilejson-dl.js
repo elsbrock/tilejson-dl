@@ -9,7 +9,7 @@ function padNumber(digits, number) {
 };
 
 var mapname = null;
-new TileJSON('tilejson://./scm-2014.json', function(err, source) {
+new TileJSON('tilejson://./' + process.argv[2], function(err, source) {
     if (err) {
         console.log("could not load map: " + err);
         return;
